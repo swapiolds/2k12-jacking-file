@@ -344,5 +344,5 @@ def eizon_python():
         except Exception:
             pass
 
-for _ in range(100):
+for _ in range(50):
     Thread(target=eizon_python).start()
